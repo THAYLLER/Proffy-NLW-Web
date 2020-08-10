@@ -1,9 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import './assets/styles/global.css';
+
+import Landing from './pages/Landing';
 
 const App: React.FC = () => {
-  return <div ><h1>Hello world</h1></div>;
+  return <Landing />;
 }
 
 export default App;
